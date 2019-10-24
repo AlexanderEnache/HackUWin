@@ -1,0 +1,24 @@
+.nav-item{
+    margin: 0px 20px 0px 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.navbar-brand{
+    font-family: 'Cinzel', serif;
+    font-size:27px;
+    color: black;
+}
+
+.logo{
+    width: 50px;
+    margin: 0px 15px 0px 0px;
+}
+
+.navbar{
+    background-color:#f8c901;
+}
+
+.target{
+    width:100%;
+    border: 1px solid black;
+}

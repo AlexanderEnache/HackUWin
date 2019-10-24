@@ -1,3 +1,7 @@
+body{
+    background-color:#005392;
+}
+
 .nav-item{
     margin: 0px 20px 0px 20px;
     font-family: 'Cinzel', serif;
@@ -20,5 +24,11 @@
 
 .target{
     width:100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    background-color:#005392;
+    color: white;
+    padding: 40px 55px 0px 55px;
+    margin:0;
+    font-size:20px;
+    font-family: 'Cinzel', serif;
 }

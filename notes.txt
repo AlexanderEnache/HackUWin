@@ -1,0 +1,13 @@
+About{
+
+    First Hackathon{
+        Uwindsor would like to welcome you to our first hackathon ever
+    }
+
+    What is a hackathon{
+
+    }
+
+    
+
+}

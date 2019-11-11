@@ -45,11 +45,27 @@ h1{
     text-align: center;
     font-size: 2em;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .p_title {
     color: white;
     font-size: 1em;
+    text-align: center;
+    font-weight: 200;
+}
+
+.section_title{
+    color: #ffdc34;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section_subtitle {
+    color: white;
+    font-size: 2em;
     text-align: center;
     font-weight: 200;
 }
@@ -75,6 +91,15 @@ h1{
     margin:0;
     font-family: 'Open-sans', sans-serif;
     margin: 0 auto;
+}
+
+.about_us{
+    text-align: center;
+    color: #fff;
+}
+
+.about_us_p {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 hr{

@@ -7,9 +7,21 @@ body{
     color: #fff;
 }
 
+.nav-link{
+    cursor: pointer;
+}
+
 .navbar-brand{
     font-size:30px;
     color: #fff;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.questions{
+    color:black;
 }
 
 .logo{
@@ -17,7 +29,7 @@ body{
     margin: 0px 15px 0px 0px;
 }
 
-h1 {
+h1{
     color: #fff;
     font-size: 2em;
     text-align: center;

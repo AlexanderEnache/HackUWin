@@ -1,16 +1,15 @@
 body{
-    background-color:#005392;
+    background-color:#293a80;
 }
 
 .nav-item{
     margin: 0px 20px 0px 20px;
-    font-family: 'Cinzel', serif;
+    color: #fff;
 }
 
 .navbar-brand{
-    font-family: 'Cinzel', serif;
     font-size:30px;
-    color: black;
+    color: #fff;
 }
 
 .logo{
@@ -18,19 +17,52 @@ body{
     margin: 0px 15px 0px 0px;
 }
 
+h1 {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
+
 .navbar{
-    background-color:#f8c901;
+    /* background-color:#f8c901; */
+    color: #fff;
+}
+
+.title{
+    color: #ffdc34;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 300;
+}
+
+.p_title {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 200;
+}
+
+.sponsor_prop_div {
+    background-color: #ffdc34;
+    margin: 20px auto;
+    border-radius: 20px;
+}
+
+.sponsor_prop {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 .target{
     width:100%;
     /* border: 1px solid black; */
-    background-color:#005392;
-    color: white;
+    background-color: #293a80;
     padding: 40px 55px 0px 55px;
     margin:0;
-    font-size:20px;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open-sans', sans-serif;
+    margin: 0 auto;
 }
 
 hr{

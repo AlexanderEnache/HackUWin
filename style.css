@@ -21,7 +21,7 @@ body{
 }
 
 .questions{
-    color:black;
+    color:white;
 }
 
 .logo{
@@ -70,11 +70,34 @@ h1{
 .target{
     width:100%;
     /* border: 1px solid black; */
-    background-color: #293a80;
+    background-color: transparent;
     padding: 40px 55px 0px 55px;
     margin:0;
-    font-family: 'Open-sans', sans-serif;
     margin: 0 auto;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.card{
+    background-color: transparent;
+    /* border:white 1px solid; */
+    border:none;
+    color:white;
+    margin:1px 0px 0px 0px;
+    border-radius:10px;
+}
+
+.card-header{
+    background-color: transparent;
+    border:none;
+    color:white;
+    padding:10px;
+}
+
+.card-body{
+    background-color: transparent;
+    border:none;
+    color:white;
+    padding:0px 45px 5px 45px;
 }
 
 hr{

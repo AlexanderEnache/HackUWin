@@ -152,7 +152,6 @@ hr{
     margin: 15px 20px 15px 20px;
 }
 
-<<<<<<< Updated upstream
 .card{
     background-color: transparent;
     /* border:white 1px solid; */
@@ -201,7 +200,6 @@ hr{
 
 .volunteer_button {
     color: #fff;
-=======
 .footer{
     display: flex;
     align-items: center;
@@ -241,5 +239,4 @@ hr{
     justify-content:center;
     font-size: 25px;
     color:black;
->>>>>>> Stashed changes
 }

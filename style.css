@@ -1,5 +1,6 @@
 body{
     background-color:#293a80;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 .nav-item{
@@ -71,16 +72,23 @@ h1{
 }
 
 .sponsor_prop_div {
-    background-color: #ffdc34;
-    margin: 20px auto;
-    border-radius: 20px;
+    
+    /* margin: 20px auto; */
+    
 }
 
 .sponsor_prop {
-    padding: 50px 0;
+    background-color: #ffdc34;
+    border-radius: 20px;
+    padding: 30px 0;
+    margin: 50px 250px;
     text-align: center;
     font-size: 1em;
     font-weight: 300;
+}
+
+.faq_style {
+    padding: 0 100px;
 }
 
 .target{
@@ -119,4 +127,54 @@ hr{
     width: 200px;
     /* border:3px solid green; */
     margin: 15px 20px 15px 20px;
+}
+
+.card{
+    background-color: transparent;
+    /* border:white 1px solid; */
+    border:none;
+    color:white;
+    margin:1px 0px 0px 0px;
+    border-radius: 40px;
+}
+
+.card-header{
+    background-color: #D6CFCE;
+    box-shadow: black 3px 3px;
+    border-radius: 25px;
+    color: #000;
+    padding:10px;
+    margin: 30px 20px;
+}
+
+.card-body{
+    background-color: transparent;
+    border-radius: 25px;
+    color:white;
+    padding:0px 45px 5px 45px;
+}
+
+
+.questions{
+    /* color:white; */
+    text-decoration: none;
+}
+
+.questions:hover{
+    color: #293a80;
+    text-decoration: none;
+}
+
+.button_area {
+    padding: 150px 0;
+    text-align: center;
+    position: relative;
+}
+
+.apply_button {
+    color: #fff;
+}
+
+.volunteer_button {
+    color: #fff;
 }

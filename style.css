@@ -45,11 +45,27 @@ h1{
     text-align: center;
     font-size: 2em;
     font-weight: 300;
+    text-transform: uppercase;
 }
 
 .p_title {
     color: white;
     font-size: 1em;
+    text-align: center;
+    font-weight: 200;
+}
+
+.section_title{
+    color: #ffdc34;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.section_subtitle {
+    color: white;
+    font-size: 2em;
     text-align: center;
     font-weight: 200;
 }
@@ -98,6 +114,15 @@ h1{
     border:none;
     color:white;
     padding:0px 45px 5px 45px;
+}
+
+.about_us{
+    text-align: center;
+    color: #fff;
+}
+
+.about_us_p {
+    font-family: 'Titillium Web', sans-serif;
 }
 
 hr{

@@ -40,15 +40,29 @@
           <a class="nav-link" id="faq-scroll" style="color: white;">FAQ</a>
         </li>
       </ul>
-
     </div>
   </nav>
 
   <div class="target container" id="main" style="height: 100vh;">
-    <h1 class="title">Design something new</h1>
-    <p class="p_title">University of Windsor - March 13-15, 2020</p>
-  </div>
+    <h1 class="title about_us_p">Design something new</h1>
+    <p class="p_title about_us_p">University of Windsor - March 13-15, 2020</p>
+    <div class="button_area">
+      <div class="row">
+        <div class="col-5">
 
+        </div>
+        <div class="col-1">
+          <a href="#" class="btn btn-warning apply_button">Apply</a>
+        </div>
+        <div class="col-1">
+          <a href="#" class="btn btn-secondary volunteer_button">Volunteer</a>
+        </div>
+        <div class="col-5">
+
+        </div>
+      </div>
+    </div>
+  </div>
 
   <div class="target" id="about" style="height: 100vh;">
     <h1 class="section_title">About us</h1>
@@ -62,13 +76,14 @@
         <div class="col-6 about_us">
           <div>
             <p style="text-align: left;" class="about_us_p">
-              WindHacks is the first hackathon hosted at the University of Windsor. WindHacks will welcome more than 200
+              WindHacks is the first hackathon hosted at the University of Windsor. WindHacks will welcome more than
+              200
               students from March 13 to March 15, 2020.
               <br />
               Participants will collaborate in teams of up to four to build web, mobile, and hardware projects, while
               participating in workshops, learning from mentors, and competing for prizes.
               <br />
-              
+
             </p>
           </div>
         </div>
@@ -104,92 +119,105 @@
   </div>
   <br>
 
-  <div class="target" id="faq" style="height: 100vh;">
+  <div class="target faq_style" id="faq" style="height: 100vh;">
     <h1 class="section_title">Questions?</h1>
     <p class="section_subtitle">FAQ</p>
     <br>
+    <div class="row">
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseOne"
+                aria-expanded="false" aria-controls="collapseOne">
+                What is a Hackathon?
+              </button>
+            </h5>
+          </div>
 
-    <div id="accordion">
-      <div class="card">
-        <div class="card-header" id="headingOne">
-          <h5 class="mb-0">
-            <button class="btn btn-link questions" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false"
-              aria-controls="collapseOne">
-              What is a Hackathon?
-            </button>
-          </h5>
-        </div>
-
-        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
-          <div class="card-body">
-            <p>To put it simply, hackathons combine the two words: hacking and marathon. Participants will get the
-              chance to
-              form teams of up to 1-4 members, and bring a project idea to life! However, they only have 36 hours to
-              accomplish
-              this. Students will receive mentorship, learn about new job opportunities, and get some cool swag!</p>
+          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p>To put it simply, hackathons combine the two words: hacking and marathon. Participants will get the
+                chance to
+                form teams of up to 1-4 members, and bring a project idea to life! However, they only have 36 hours to
+                accomplish
+                this. Students will receive mentorship, learn about new job opportunities, and get some cool swag!</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingTwo">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseTwo"
-              aria-expanded="false" aria-controls="collapseTwo">
-              Who can Participate?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-          <div class="card-body">
-            <p>HackWin applications are open to post-secondary students from across the world. Whether you are a
-              freshman or
-              completing your PhD, we want you to apply! Unfortunately, we will not be accepting high school students
-              at
-              this
-              time. Each application is reviewed from the HackWin organizing team, and decisions will be sent out on a
-              rolling
-              basis.</p>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseThree"
+                aria-expanded="false" aria-controls="collapseThree">
+                What if I've never been to a hackathon before?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>There's always a first time for everything, right? We highly encourage individuals with various levels
+                of
+                experience to apply to WindHacks. WindHacks is a hackathon where individuals from various disciplines,
+                majors,
+                and
+                backgrounds are encouraged to come out and participate.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingThree">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseThree"
-              aria-expanded="false" aria-controls="collapseThree">
-              What if I've never been to a hackathon before?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-          <div class="card-body">
-            <p>There's always a first time for everything, right? We highly encourage individuals with various levels
-              of
-              experience to apply to HackWin. HackWin is a hackathon where individuals from various disciplines,
-              majors,
-              and
-              backgrounds are encouraged to come out and participate.</p>
+    </div>
+    <div class="row">
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseTwo"
+                aria-expanded="false" aria-controls="collapseTwo">
+                Who can Participate?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <p>WindHacks applications are open to post-secondary students from across the world. Whether you are a
+                freshman or
+                completing your PhD, we want you to apply! Unfortunately, we will not be accepting high school students
+                at
+                this
+                time. Each application is reviewed from the WindHacks organizing team, and decisions will be sent out on
+                a
+                rolling
+                basis.</p>
+            </div>
           </div>
         </div>
       </div>
-      <div class="card">
-        <div class="card-header" id="headingFour">
-          <h5 class="mb-0">
-            <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseFour"
-              aria-expanded="false" aria-controls="collapseFour">
-              Can I start working on my hack before the event?
-            </button>
-          </h5>
-        </div>
-        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-          <div class="card-body">
-            <p>We follow the Major League Hacking guidelines, which prohibits students from bringing and continuing a
-              project
-              that they have already worked on. Your final project should be new and only built during the weekend of
-              HackWin.
-            </p>
+      <div class="col-6">
+        <div class="card">
+          <div class="card-header" id="headingFour">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed questions" data-toggle="collapse" data-target="#collapseFour"
+                aria-expanded="false" aria-controls="collapseFour">
+                Can I start working on my hack before the event?
+              </button>
+            </h5>
+          </div>
+          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+              <p>We follow the Major League Hacking guidelines, which prohibits students from bringing and continuing a
+                project
+                that they have already worked on. Your final project should be new and only built during the weekend of
+                WindHacks.
+              </p>
+            </div>
           </div>
         </div>
+      </div>
+      <div id="accordion">
+        <!-- if it works dont fix it -->
       </div>
     </div>
     <br>
